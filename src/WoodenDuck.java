@@ -4,8 +4,8 @@ import behaviorClasses.NoQuackBird;
 public class WoodenDuck extends Duck{
 	
 	WoodenDuck(){
-		flyBehv = new NoFlyClass();
-		quackBehv = new NoQuackBird();
+		setFlyBehavior(new NoFlyClass());
+		setQuackBehavior(new NoQuackBird());
 	}
 	
 	@Override
